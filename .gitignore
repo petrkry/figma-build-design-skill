@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI agents & assistants (local workspace state)
+AGENTS.md
+CLAUDE.md
+.cursor/
+.claude/
+.continue/
+.windsurf/
+.codex/
+.factory/
+.opencode/
+.trae/
+.roo/
+.aider*
+.aider.chat.history.md
+.agents/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Live user config (created from config.example.md at setup; holds DS keys)
+references/config.md
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+
+# Local dev scripts (personal helpers; not part of the skill)
+tools/

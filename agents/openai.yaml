@@ -1,0 +1,7 @@
+interface:
+  display_name: "Figma Build Design"
+  short_description: "Library-first Figma builds with a mandatory preflight"
+  default_prompt: "Build or update a Figma screen through the linked design system: reuse library components and variables, follow example screens, and run the mandatory preflight before composing."
+
+policy:
+  allow_implicit_invocation: true
